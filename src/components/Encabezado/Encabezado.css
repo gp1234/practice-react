@@ -1,0 +1,8 @@
+.red {
+    color: red;
+    transform: skew(-20deg);
+}
+
+.bold {
+    font-weight: bold;
+}

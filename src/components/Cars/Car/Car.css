@@ -1,0 +1,11 @@
+.Car {
+    margin-top: 100px;
+    padding: 20px;
+    margin: 15px;
+    text-align: center;
+    border: 1px solid #eee;
+    color:orange;
+    box-shadow: 0 2px 5px #ccc;
+    cursor: pointer;
+    font-weight: 600;
+}

@@ -1,0 +1,45 @@
+.Spinner {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    position: relative;
+}
+
+.circle-1 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    border: 20px solid green;
+    border-bottom: 20px solid transparent;
+    border-radius: 50%;
+    animation: spinner 1s linear infinite;
+} 
+
+.circle-2 {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    width: 50%;
+    height: 50%;
+    border: 10px solid blue;
+    border-bottom: 10px solid transparent;
+    border-radius: 50%;
+    animation: spinner 1s linear infinite reverse;
+    
+} 
+
+@keyframes spinner {
+    0%{
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100%{
+        transform: rotate(360deg);
+        opacity: 1;
+    }
+}
